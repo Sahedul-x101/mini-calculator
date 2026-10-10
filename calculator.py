@@ -9,18 +9,25 @@ while(True):
     oper = input("Enter a operator: ")
     b = float(input("Enter Secound number: "))
 
+    # addition
     if(oper == '+'):
         result = a+b
+    # subtraction
     elif(oper == '-'):
         result = a-b
+    # multiplication
     elif(oper == '*'):
         result = a*b
+    # division
     elif(oper == '/'):
         result = a/b
+    # Foor Division
     elif(oper == '//'):
         result = a//b
+    # Modulus
     elif(oper == '%'):
         result = a%b
+    # power
     elif(oper == '**'):
         result = a**b
 
